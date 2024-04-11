@@ -1,0 +1,47 @@
+/* Add this CSS to your stylesheets or style tag */
+
+.bill-details {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #d10c0c;
+  border-radius: 5px;
+}
+
+.bill-details h2 {
+  margin-bottom: 10px;
+}
+
+.bill-details .bill-content {
+  white-space: pre-wrap;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.bill-details .bill-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Add margin-top for spacing */
+}
+
+.bill-details .bill-content th,
+.bill-details .bill-content td {
+  border: 1px solid #000; /* Add borders around table cells */
+  padding: 8px;
+  text-align: center;
+}
+
+.bill-details .bill-content th {
+  background-color: #f2f2f2;
+}
+
+.bill-details .form-group {
+  margin-top: 30px;
+}
+
+.bill-details input[type="number"] {
+  width: 150px;
+}
